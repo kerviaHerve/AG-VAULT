@@ -1,0 +1,17 @@
+# Binaries
+agentvault
+agentvault-*
+dist/
+
+# Test artifacts
+*.test
+*.out
+coverage.*
+
+# Local env (NEVER commit)
+.env
+*.local.yaml
+
+# IDE
+.idea/
+.vscode/
