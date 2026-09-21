@@ -12,9 +12,6 @@ networks:
     name: proxy
     external: true
 
-volumes:
-  data: {}
-
 services:
   ag-vault:
     build: .
@@ -28,7 +25,7 @@ services:
       AGENTVAULT_ADMIN_HASH: ${AGENTVAULT_ADMIN_HASH}
       AGENTVAULT_RATE_PER_MIN: "60"
     volumes:
-      - data:/data
+      - ./data:/data
     networks:
       - proxy
     read_only: true
