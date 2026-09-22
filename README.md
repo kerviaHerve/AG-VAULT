@@ -71,11 +71,11 @@ opencode mcp add ag-vault --global \
   -- /opt/agentvault/bin/agentvault --mcp-stdio
 ```
 
-**HTTP (Hermes — any machine on the mesh, no binary needed):**
+**HTTP (Hermes — any machine that can reach the server, no binary needed):**
 ```yaml
 mcp_servers:
   ag-vault:
-    url: https://s-agvault.kervia.ch/mcp
+    url: https://your-agvault.example.com/mcp   # ← your instance's URL
     headers:
       Authorization: "Bearer av_..."
 ```
