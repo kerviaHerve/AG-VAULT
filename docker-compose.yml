@@ -14,7 +14,10 @@ networks:
 
 services:
   ag-vault:
-    build: .
+    build:
+      context: .
+      args:
+        VERSION: v1.0.0
     # image: ghcr.io/kervia/ag-vault:latest
     container_name: ag-vault
     restart: unless-stopped
