@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <b>🇬🇧 English</b> · <a href="README.fr.md">🇫🇧 Français</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/kerviaHerve/AG-VAULT/releases"><img src="https://img.shields.io/github/v/release/kerviaHerve/AG-VAULT?color=22C55E&label=release" alt="release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="license"></a>
   <img src="https://img.shields.io/badge/Go-1.27-00ADD8?logo=go" alt="Go">
